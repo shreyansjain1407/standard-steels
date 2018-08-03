@@ -1,0 +1,133 @@
+html{
+	background-color: #ff9f5b;
+}
+
+body{
+	font-size: 87%; 
+}
+
+.container{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box; 
+}
+
+.content-area{
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area{
+	width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.sidebar{
+	width: 34%;
+	float: left;
+	background-color: #e5e9dc;
+	padding: 20px 40px 20px 40px; /*Values in clockwise fashion*/
+	box-sizing: border-box;
+	font-size: 80%;
+}
+
+/*Main Image*/
+.img-banner{
+	position: relative;
+}
+
+.img-banner img{
+	display: block;
+}
+
+.banner-desc{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 15px 25px;
+}
+
+/*Code for clearing the floats,[Start]*/
+
+.group:before,
+.group:after{
+	content: "";
+	display: table;
+}
+
+.group:after{
+	clear: both;
+}
+
+.group{
+	zoom: 1;
+}
+
+.group{
+	font-size:150%;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*Code for clearing the floats,[End]*/
+
+header{
+	padding-top: 20px;
+
+	color: #617140;
+}
+
+header h1{
+	margin: 0;
+	font-weight: normal;
+	font-size: 500%;
+}
+
+header p{
+	margin: 0;
+}
+
+/* Site Navigation */
+.site-nav{
+	margin-top: 20px;
+}
+
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li{
+	margin-right: 5px;
+	list-style: none;
+	float: left;
+}
+
+.site-nav a{
+	display: block;
+	color: #617140;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #e5e9dc;
+	border-bottom: none;
+}
+/* End Site Navigation */
+
+footer{
+	text-align: center;
+	font-size: 80%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}	
